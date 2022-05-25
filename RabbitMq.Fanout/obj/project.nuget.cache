@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "lKsUX3EBbLCaSxTw5xEQB1iT7g79R5KAY9IRrRtiMt478xhbK6AVvhtFntYnBaA8/fEltnmiv1FXXc5CJ3TIEQ==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\ebubekir\\Documents\\GitHub\\RabbitMqToLearn\\RabbitMq.Fanout\\RabbitMq.Fanout.Publisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ebubekir\\.nuget\\packages\\rabbitmq.client\\6.3.0\\rabbitmq.client.6.3.0.nupkg.sha512",
+    "C:\\Users\\ebubekir\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\ebubekir\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
