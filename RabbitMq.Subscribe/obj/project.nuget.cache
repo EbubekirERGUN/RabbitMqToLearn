@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "cDpCovNavNR50IrA0blWXJOMc0SD5XSla9Neyd6obI3Et3+fsho/C7bmrvq/SmcKYZoBjMPRDf6cP6v6JmwyMw==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\ebubekir\\Documents\\GitHub\\RabbitMqToLearn\\RabbitMq.Subscribe\\RabbitMq.Subscriber.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ebubekir\\.nuget\\packages\\rabbitmq.client\\6.3.0\\rabbitmq.client.6.3.0.nupkg.sha512",
+    "C:\\Users\\ebubekir\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\ebubekir\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
