@@ -6,7 +6,7 @@ var factory = new ConnectionFactory() { HostName = "localhost" };
 using var connection = factory.CreateConnection();
 var channel = connection.CreateModel();
 
-channel.ExchangeDeclare("logs-topic", durable: true, type: ExchangeType.Topic);
+channel.ExchangeDeclare("logs-header", durable: true, type: ExchangeType.Topic);
 
 Random rnd = new Random();
 
@@ -20,7 +20,7 @@ Enumerable.Range(1, 50).ToList().ForEach(i =>
     string message = $"log-type: {log1}-{log2}-{log3}";
     var body = Encoding.UTF8.GetBytes(message);
 
-    channel.BasicPublish(exchange: "logs-topic",
+    channel.BasicPublish(exchange: "logs-header",
                          routingKey: routeKey,
                          basicProperties: null,
                          body: body);

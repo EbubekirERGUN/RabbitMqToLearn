@@ -12,7 +12,7 @@ channel.BasicQos(0, 1, false);
 var consumer = new EventingBasicConsumer(channel);
 var QueueName = channel.QueueDeclare().QueueName;
 var routeKey = "*.Error.*";
-channel.QueueBind(QueueName, "logs-topic", routeKey);
+channel.QueueBind(QueueName, "logs-header", routeKey);
 channel.BasicConsume(QueueName, false, consumer);
 Console.WriteLine("Waiting for messages...");
 
