@@ -7,13 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Publisher", "Rabbi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Subscriber", "RabbitMq.Subscribe\RabbitMq.Subscriber.csproj", "{329560C7-DFFB-497C-8DFB-B0AFE35CE30C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Fanout.Publisher", "RabbitMq.Fanout\RabbitMq.Fanout.Publisher.csproj", "{77A2A624-D069-4BFE-BE9D-769E35C329A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Fanout.Publisher", "RabbitMq.Fanout.Publisher\RabbitMq.Fanout.Publisher.csproj", "{77A2A624-D069-4BFE-BE9D-769E35C329A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Fanout.Subscriber", "RabbitMq.Fanout.Subscriber\RabbitMq.Fanout.Subscriber.csproj", "{CD600DAF-48F0-4197-B0BF-4EEE19C9B218}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Direct.Publisher", "RabbitMq.Direct.Publisher\RabbitMq.Direct.Publisher.csproj", "{C61858ED-F767-48FB-B58E-187BDE612699}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Direct.Subscriber", "RabbitMq.Direct.Subscriber\RabbitMq.Direct.Subscriber.csproj", "{0438F755-0D5D-424F-AA87-D0D0215D431B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Topic.Publisher", "RabbitMq.Topic.Publisher\RabbitMq.Topic.Publisher.csproj", "{315EE131-E9E9-4BB0-A465-8BA64B3D0E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMq.Topic.Subscriber", "RabbitMq.Topic.Subscriber\RabbitMq.Topic.Subscriber.csproj", "{9FE7150C-C9B0-4EA5-96CA-19727F23B37D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,5 +52,13 @@ Global
 		{0438F755-0D5D-424F-AA87-D0D0215D431B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0438F755-0D5D-424F-AA87-D0D0215D431B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0438F755-0D5D-424F-AA87-D0D0215D431B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{315EE131-E9E9-4BB0-A465-8BA64B3D0E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315EE131-E9E9-4BB0-A465-8BA64B3D0E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315EE131-E9E9-4BB0-A465-8BA64B3D0E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315EE131-E9E9-4BB0-A465-8BA64B3D0E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE7150C-C9B0-4EA5-96CA-19727F23B37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE7150C-C9B0-4EA5-96CA-19727F23B37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE7150C-C9B0-4EA5-96CA-19727F23B37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE7150C-C9B0-4EA5-96CA-19727F23B37D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
